@@ -36,3 +36,7 @@ while True:
         cv2.imwrite(img_name, frame)
         print(f"{img_name} is captured")
         img_counter += 1
+    if command.strip() == "FINISHED":
+        s.close()
+        cap.release()
+        break
