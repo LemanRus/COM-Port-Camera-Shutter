@@ -22,7 +22,7 @@ This Python script allows you to control a camera connected to your computer via
    - Or download directly from releases
 
 2. **Prepare the Working Directory**:
-   - Place the `main.py` file into the folder where you want to save the captured images.
+   - Place the `main_eng.py` file into the folder where you want to save the captured images.
 
 3. **Configure Your 3D Printer Slicer**:
    - If you are using Ultimaker Cura:
@@ -34,7 +34,7 @@ This Python script allows you to control a camera connected to your computer via
    - Begin the 3D printing process on your printer.
    - Run the Python script from the command line or PowerShell:
      ```bash
-     python main.py
+     python main_eng.py
      ```
    - The script will start capturing images as soon as it receives the "SMILE" command. It will automatically stop when it receives the "FINISH" command.
 
@@ -61,7 +61,7 @@ This Python script allows you to control a camera connected to your computer via
    - Или напрямую из раздела "releases"
 
 2. **Подготовьте рабочий каталог**:
-   - Поместите файл `main.py` в папку, где вы хотите сохранять снимки.
+   - Поместите файл `main_rus.py` в папку, где вы хотите сохранять снимки.
 
 3. **Настройте слайсер вашего 3D-принтера**:
    - Если вы используете Ultimaker Cura:
@@ -73,6 +73,6 @@ This Python script allows you to control a camera connected to your computer via
    - Начните процесс 3D-печати на вашем принтере.
    - Запустите Python скрипт из командной строки или PowerShell:
      ```bash
-     python main.py
+     python main_rus.py
      ```
    - Скрипт начнет захват изображений сразу после получения команды "SMILE". Он автоматически остановится после получения команды "FINISH".
